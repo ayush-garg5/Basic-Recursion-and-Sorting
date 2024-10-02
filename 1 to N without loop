@@ -1,0 +1,16 @@
+class Solution{
+    public:
+    //Complete this function
+    int i = 1;
+    void printNos(int N)
+    {
+        //Your code here
+        if( i > N) {
+            return;
+        }
+        cout << i<< ' ';
+        i++;
+        printNos(N);
+       
+    }
+};
